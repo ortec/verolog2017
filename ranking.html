@@ -1,211 +1,259 @@
 <!doctype html>
 <html>
-<head>
-    <title>Verolog challenge 2016-2017</title>
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
-    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css"> <!-- load c3 -->
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript">
-        var appInsights=window.appInsights||function(a){
-          function b(a){c[a]=function(){var b=arguments;c.queue.push(function(){c[a].apply(c,b)})}}var c={config:a},d=document,e=window;setTimeout(function(){var b=d.createElement("script");b.src=a.url||"https://az416426.vo.msecnd.net/scripts/a/ai.0.js",d.getElementsByTagName("script")[0].parentNode.appendChild(b)});try{c.cookie=d.cookie}catch(a){}c.queue=[];for(var f=["Event","Exception","Metric","PageView","Trace","Dependency"];f.length;)b("track"+f.pop());if(b("setAuthenticatedUserContext"),b("clearAuthenticatedUserContext"),b("startTrackEvent"),b("stopTrackEvent"),b("startTrackPage"),b("stopTrackPage"),b("flush"),!a.disableExceptionTracking){f="onerror",b("_"+f);var g=e[f];e[f]=function(a,b,d,e,h){var i=g&&g(a,b,d,e,h);return!0!==i&&c["_"+f](a,b,d,e,h),i}}return c
-          }({
-              instrumentationKey:"b97a3abb-0f79-4bcf-83fd-a10120f6c1e5"
-          });
-        
-        window.appInsights=appInsights,appInsights.queue&&0===appInsights.queue.length&&appInsights.trackPageView();
-        </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone.min.js" integrity="sha256-qtZIsdieLAIFbUxkr2LottQ3TiyoMVzIW96jxCC4O+g=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone-with-data.min.js" integrity="sha256-6HnS5oS8xsvJtNUKwS+JyRtLDK12a8MhA+RCDstVMkI=" crossorigin="anonymous"></script>
 
-    
+<head>
+	<title>Verolog challenge 2016-2017</title>
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<!-- load bootstrap css -->
+	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<!-- load fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css"> <!-- load c3 -->
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript">
+		var appInsights = window.appInsights || function (a) {
+			function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement("script"); b.src = a.url || "https://az416426.vo.msecnd.net/scripts/a/ai.0.js", d.getElementsByTagName("script")[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ["Event", "Exception", "Metric", "PageView", "Trace", "Dependency"]; f.length;)b("track" + f.pop()); if (b("setAuthenticatedUserContext"), b("clearAuthenticatedUserContext"), b("startTrackEvent"), b("stopTrackEvent"), b("startTrackPage"), b("stopTrackPage"), b("flush"), !a.disableExceptionTracking) { f = "onerror", b("_" + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c["_" + f](a, b, d, e, h), i } } return c
+		}({
+			instrumentationKey: "b97a3abb-0f79-4bcf-83fd-a10120f6c1e5"
+		});
+
+		window.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length && appInsights.trackPageView();
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone.min.js"
+		integrity="sha256-qtZIsdieLAIFbUxkr2LottQ3TiyoMVzIW96jxCC4O+g=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.16/moment-timezone-with-data.min.js"
+		integrity="sha256-6HnS5oS8xsvJtNUKwS+JyRtLDK12a8MhA+RCDstVMkI=" crossorigin="anonymous"></script>
+
+
 
 	<script src="https://d3js.org/d3.v3.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
 
 </head>
-<body>
-    
-    <script>
-       	function getRankings(instance) {
-			var startDate = '2016-12-05';
-			var endDate = '2017-07-02';
-			startDate = '2015-01-01';
-			endDate = '2030-12-31';
-        	$.get( "/rankings/" + instance + "?startDate=" + startDate + "&endDate=" + endDate, function(rankings) {
-        		if(rankings && rankings.length > 0) {
-					var html = ['<thead><tr><th>Position</th><th>Team</th><th>Date</th><th class="text-right">Cost</th></tr></thead><tbody>'];
-	        		for(var i = 0; i < rankings.length; i++) {
-	        			if(rankings[i].isCurrUser) html.push('<tr class="current">');
-	        			else html.push("<tr>");
-	        			
-	        			html.push('<td>' + (i+1) +'</td><td>'+rankings[i].team+'</td><td>'+ moment(rankings[i].date).format('LLLL') + ' (' + moment(rankings[i].date).fromNow() +  ')'+'</td><td class="text-right">'+rankings[i].cost.toLocaleString()+'</td></tr>');
-	        		}
-	        		html.push('</tbody>');
-	        		$("#rankings").html(html.join(""));
-	        		$("#no-data").html("");
-        		} else {
-        			$("#no-data").html("No data for this instance.");
-        			$("#rankings").html("");
-        		}
-			});
-        }
 
-        function getCostPerWeek(instance) {
-        	$.get( "/costPerWeek/" + instance + "?startDate=2016-12-05&endDate=2017-07-02", function(data) {
-        		if(data && data.xAxisData && data.xAxisData.length > 0) {
-        			$("#chart").show();
-        			var chart = c3.generate({
-					    data: {
-					        columns: [
-					            data.yAxisData
-					        ]
-					    },
-					    axis: {
-					        x: {
-					            type: 'category', 
-					            tick: { rotate: 90 },
-					            label: 'Week interval',
-					            categories: data.xAxisData
-					        },
-					        y: {
-					            label: 'Cost'
-					        },
-					    },
-					    tooltip: {
-					        format: {
-					            title: function (d) { return 'Week ' + data.xAxisData[d] + ' - ' + data.xTooltipData[d]; },
-					            value: function (value, ratio, id) {
-					                return value.toLocaleString();
-					            }
-					        }
-					    }
-					});
-        		} else {
-        			$("#chart").hide();
-        		}
+<body>
+
+	<script>
+
+		function getRankings(instance) {
+			$.getJSON("rankings/" + instance + ".json", function (rankings) {
+				if (rankings && rankings.length > 0) {
+					var html = ['<thead><tr><th>Position</th><th>Team</th><th>Date</th><th class="text-right">Cost</th></tr></thead><tbody>'];
+					for (var i = 0; i < rankings.length; i++) {
+						if (rankings[i].isCurrUser) html.push('<tr class="current">');
+						else html.push("<tr>");
+
+						html.push(
+							'<td>' + (i + 1) + '</td>' +
+							'<td>' + rankings[i].team + '</td>' +
+							'<td>' + moment(rankings[i].date).format('LLLL') + ' (' + moment(rankings[i].date).fromNow() + ')</td>' +
+							'<td class="text-right">' + rankings[i].cost.toLocaleString() + '</td>' +
+							'</tr>'
+						);
+					}
+					html.push('</tbody>');
+					$("#rankings").html(html.join(""));
+					$("#no-data").html("");
+				} else {
+					$("#no-data").html("No data for this instance.");
+					$("#rankings").html("");
+				}
+			}).fail(function () {
+				$("#no-data").html("No data for this instance.");
+				$("#rankings").html("");
 			});
 		}
-		
+
+		function getCostPerWeek(instance) {
+			$.getJSON("costPerWeek/" + instance + ".json", function (data) {
+				if (data && data.xAxisData && data.xAxisData.length > 0) {
+					$("#chart").show();
+					c3.generate({
+						bindto: '#chart',
+						data: {
+							columns: [
+								data.yAxisData
+							]
+						},
+						axis: {
+							x: {
+								type: 'category',
+								tick: { rotate: 90 },
+								label: 'Week interval',
+								categories: data.xAxisData
+							},
+							y: {
+								label: 'Cost'
+							}
+						},
+						tooltip: {
+							format: {
+								title: function (d) {
+									return 'Week ' + data.xAxisData[d] + ' - ' + data.xTooltipData[d];
+								},
+								value: function (value) {
+									return value.toLocaleString();
+								}
+							}
+						}
+					});
+				} else {
+					$("#chart").hide();
+				}
+			}).fail(function () {
+				$("#chart").hide();
+			});
+		}
+
 		function getProgress(instance) {
-			$.get('categories/' + instance + '/progress', function(data) {
+			$.getJSON("categories/" + instance + "/progress.json", function (data) {
 				var html = [];
 				html.push('<thead><th>Date</th><th class="text-right">Cost</th></thead>');
 				html.push('<tbody>');
 				for (var i in data) {
 					var sol = data[i];
-					var date = moment(sol.date).format('LLLL') + ' (' + moment(sol.date).fromNow() +  ')';
+					var date = moment(sol.date).format('LLLL') + ' (' + moment(sol.date).fromNow() + ')';
 					var cost = sol.cost.toLocaleString();
 					html.push('<tr><td>' + date + '</td><td class="text-right">' + cost + '</td></tr>');
 				}
 				html.push('</tbody>');
 				$('#progress').html(html.join(''));
+			}).fail(function () {
+				$('#progress').html('');
 			});
 		}
 
-       	$(function(){
-       		getRankings($("#instance").val());
+		$(function () {
+			getRankings($("#instance").val());
 			getCostPerWeek($("#instance").val());
 			getProgress($("#instance").val());
 
-       		$("#instance").change(function() {
-       			getRankings($(this).val());
+			$("#instance").change(function () {
+				getRankings($(this).val());
 				getCostPerWeek($(this).val());
 				getProgress($(this).val());
-       		});
+			});
 		});
-</script>
+	</script>
 
 
 	<div class="container-fluid">
-        <nav class="topbar navbar navbar-default">
-            <a href="index.html">
-                <div class="slogan">
-                    <span class="orange bold">VeRoLog</span>
-                    <span class="bold">Solver Challenge</span>
-                    <span>2016-2017</span>
-                </div>
-            </a>
-            <ul class="nav navbar-nav menu-nav">  
-                <li><a href="index.html">Home</a></li>      
-                
-                <li><a href="downloads.html">Downloads</a></li>
-                <li><a href="instances.html">Instances</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                
-                <li><a href="ranking.html">Ranking</a></li>
-                
+		<nav class="topbar navbar navbar-default">
+			<a href="index.html">
+				<div class="slogan">
+					<span class="orange bold">VeRoLog</span>
+					<span class="bold">Solver Challenge</span>
+					<span>2016-2017</span>
+				</div>
+			</a>
+			<ul class="nav navbar-nav menu-nav">
+				<li><a href="index.html">Home</a></li>
 
-                <li><a href="register.html">Register</a></li>
-                <li class="active"><a href="login.html">Login</a></li>
-                
-            </ul>
-            <a href="https://www.ortec.com" target="_blank"><img src="images/logo.png" alt="ORTEC" class="company-logo"></a>
-        </nav>
-        
-    </div>
-    <div class="container">
-        <div class="content">
-            
-		<div>
-			<h4>Ranking</h4>
-			<div class="form-group">
-				<label>Instance</label>
-				<select class="form-control" id="instance" name="instance">
-					<optgroup label="ORTEC-early">
-						<option value="2/instances/2-5ce1690919d497e10e4342fea8711fa6.txt">VeRoLog_r1000d25_1.txt</option>
-						<option value="2/instances/2-21bf32aed935ca3e3c3cd5f7916101d4.txt">VeRoLog_r1000d25_2.txt</option>
-						<option value="2/instances/2-31fe0ac583519fa0ace0282c4833c5b7.txt">VeRoLog_r1000d25_3.txt</option>
-						<option value="2/instances/2-ed805f3a9cdebeb31a5cc09e63e68994.txt">VeRoLog_r1000d25_4.txt</option>
-						<option value="2/instances/2-383a3661a1a01fbe8c46257e4e4f6f75.txt">VeRoLog_r1000d25_5.txt</option>
-						<option value="2/instances/2-57b6b790e379b921cbc64214912d0253.txt">VeRoLog_r1000d30_1.txt</option>
-						<option value="2/instances/2-02daee73f7334399cb17873a2b0b89e8.txt">VeRoLog_r1000d30_2.txt</option>
-						<option value="2/instances/2-fa701cdb9a8fc80e2c13539df4ffa20b.txt">VeRoLog_r1000d30_3.txt</option>
-						<option value="2/instances/2-4ec98c5172d3b31fb57d9dd6d7389e45.txt">VeRoLog_r1000d30_4.txt</option>
-						<option value="2/instances/2-865ab33704c6c015f86455d8c0f4d0ed.txt">VeRoLog_r1000d30_5.txt</option>
-						<option value="2/instances/2-928afcad056d83ac35d97a0002f3be32.txt">VeRoLog_r100d10_1.txt</option>
-						<option value="2/instances/2-6a67fa406eb51a4bcee6bfe8d559c89f.txt">VeRoLog_r100d10_2.txt</option>
-						<option value="2/instances/2-a015036db8bc6a63a29e2bb8ccc2d466.txt">VeRoLog_r100d10_3.txt</option>
-						<option value="2/instances/2-3c4274ebbe58c729876fb22d6bbf3b69.txt">VeRoLog_r100d10_4.txt</option>
-						<option value="2/instances/2-74c7f9046ffd90355aa661fd2725db45.txt">VeRoLog_r100d10_5.txt</option>
-						<option value="2/instances/2-060a5f0d84a31a2bfb3caed1e710dbb2.txt">VeRoLog_r100d5_1.txt</option>
-						<option value="2/instances/2-3cf29198647d8fab8e506a2a339f9c02.txt">VeRoLog_r100d5_2.txt</option>
-						<option value="2/instances/2-7468f64ae5f77b89876f256c18ed38a8.txt">VeRoLog_r100d5_3.txt</option>
-						<option value="2/instances/2-f460a51e10005ceed101b970bf9b8891.txt">VeRoLog_r100d5_4.txt</option>
-						<option value="2/instances/2-460e31f42e02023b0eafe3bff9b3619d.txt">VeRoLog_r100d5_5.txt</option>
-						<option value="2/instances/2-7dda63127d8d82f7bada1053ba66fe77.txt">VeRoLog_r500d15_1.txt</option>
-						<option value="2/instances/2-e5f7658bbde9d0cfcc2c24cf41d46983.txt">VeRoLog_r500d15_2.txt</option>
-						<option value="2/instances/2-0cea83552613029d753460f5dce494f8.txt">VeRoLog_r500d15_3.txt</option>
-						<option value="2/instances/2-63cd07b1ec2c2fb4b175804ec79bbd95.txt">VeRoLog_r500d15_4.txt</option>
-						<option value="2/instances/2-17d5d31ec545123bc151fc292a09f44f.txt">VeRoLog_r500d15_5.txt</option>
-					</optgroup>
-				</select>
-			</div>
-			<div class="form-group">
-				<table id="rankings" class="table">
-					
-				</table>
-				<div id="no-data"></div>
-			</div>
-			<p>This graph shows for each week the leading score at the end of that week.</p>
-			<div class="form-group">
-				<div id="chart"></div>
-			</div>
-			<h4>Progress of best known scores</h4>
-			<p>The table below shows when a new leading score was submitted for this instance.</p>
-			<div class="form-group">
-				<table id="progress" class="table">
+				<li><a href="downloads.html">Downloads</a></li>
+				<li><a href="instances.html">Instances</a></li>
+				<li><a href="publications.html">Publications</a></li>
 
-				</table>
+				<li><a href="ranking.html">Ranking</a></li>
+
+
+				<li><a href="register.html">Register</a></li>
+				<li class="active"><a href="login.html">Login</a></li>
+
+			</ul>
+			<a href="https://www.ortec.com" target="_blank"><img src="images/logo.png" alt="ORTEC"
+					class="company-logo"></a>
+		</nav>
+
+	</div>
+	<div class="container">
+		<div class="content">
+
+			<div>
+				<h4>Ranking</h4>
+				<div class="form-group">
+					<label>Instance</label>
+					<select class="form-control" id="instance" name="instance">
+						<optgroup label="ORTEC-early">
+							<option value="2/instances/2-5ce1690919d497e10e4342fea8711fa6.txt">VeRoLog_r1000d25_1.txt
+							</option>
+							<option value="2/instances/2-21bf32aed935ca3e3c3cd5f7916101d4.txt">VeRoLog_r1000d25_2.txt
+							</option>
+							<option value="2/instances/2-31fe0ac583519fa0ace0282c4833c5b7.txt">VeRoLog_r1000d25_3.txt
+							</option>
+							<option value="2/instances/2-ed805f3a9cdebeb31a5cc09e63e68994.txt">VeRoLog_r1000d25_4.txt
+							</option>
+							<option value="2/instances/2-383a3661a1a01fbe8c46257e4e4f6f75.txt">VeRoLog_r1000d25_5.txt
+							</option>
+							<option value="2/instances/2-57b6b790e379b921cbc64214912d0253.txt">VeRoLog_r1000d30_1.txt
+							</option>
+							<option value="2/instances/2-02daee73f7334399cb17873a2b0b89e8.txt">VeRoLog_r1000d30_2.txt
+							</option>
+							<option value="2/instances/2-fa701cdb9a8fc80e2c13539df4ffa20b.txt">VeRoLog_r1000d30_3.txt
+							</option>
+							<option value="2/instances/2-4ec98c5172d3b31fb57d9dd6d7389e45.txt">VeRoLog_r1000d30_4.txt
+							</option>
+							<option value="2/instances/2-865ab33704c6c015f86455d8c0f4d0ed.txt">VeRoLog_r1000d30_5.txt
+							</option>
+							<option value="2/instances/2-928afcad056d83ac35d97a0002f3be32.txt">VeRoLog_r100d10_1.txt
+							</option>
+							<option value="2/instances/2-6a67fa406eb51a4bcee6bfe8d559c89f.txt">VeRoLog_r100d10_2.txt
+							</option>
+							<option value="2/instances/2-a015036db8bc6a63a29e2bb8ccc2d466.txt">VeRoLog_r100d10_3.txt
+							</option>
+							<option value="2/instances/2-3c4274ebbe58c729876fb22d6bbf3b69.txt">VeRoLog_r100d10_4.txt
+							</option>
+							<option value="2/instances/2-74c7f9046ffd90355aa661fd2725db45.txt">VeRoLog_r100d10_5.txt
+							</option>
+							<option value="2/instances/2-060a5f0d84a31a2bfb3caed1e710dbb2.txt">VeRoLog_r100d5_1.txt
+							</option>
+							<option value="2/instances/2-3cf29198647d8fab8e506a2a339f9c02.txt">VeRoLog_r100d5_2.txt
+							</option>
+							<option value="2/instances/2-7468f64ae5f77b89876f256c18ed38a8.txt">VeRoLog_r100d5_3.txt
+							</option>
+							<option value="2/instances/2-f460a51e10005ceed101b970bf9b8891.txt">VeRoLog_r100d5_4.txt
+							</option>
+							<option value="2/instances/2-460e31f42e02023b0eafe3bff9b3619d.txt">VeRoLog_r100d5_5.txt
+							</option>
+							<option value="2/instances/2-7dda63127d8d82f7bada1053ba66fe77.txt">VeRoLog_r500d15_1.txt
+							</option>
+							<option value="2/instances/2-e5f7658bbde9d0cfcc2c24cf41d46983.txt">VeRoLog_r500d15_2.txt
+							</option>
+							<option value="2/instances/2-0cea83552613029d753460f5dce494f8.txt">VeRoLog_r500d15_3.txt
+							</option>
+							<option value="2/instances/2-63cd07b1ec2c2fb4b175804ec79bbd95.txt">VeRoLog_r500d15_4.txt
+							</option>
+							<option value="2/instances/2-17d5d31ec545123bc151fc292a09f44f.txt">VeRoLog_r500d15_5.txt
+							</option>
+						</optgroup>
+					</select>
+				</div>
+				<div class="form-group">
+					<table id="rankings" class="table">
+
+					</table>
+					<div id="no-data"></div>
+				</div>
+				<p>This graph shows for each week the leading score at the end of that week.</p>
+				<div class="form-group">
+					<div id="chart"></div>
+				</div>
+				<h4>Progress of best known scores</h4>
+				<p>The table below shows when a new leading score was submitted for this instance.</p>
+				<div class="form-group">
+					<table id="progress" class="table">
+
+					</table>
+				</div>
+
 			</div>
 
 		</div>
-
-    </div>
-</div>
+	</div>
 </body>
+
 </html>

@@ -1,0 +1,335 @@
+[
+  {
+    "id": "acfe42c2-7183-42b3-977d-7846a910febf",
+    "date": "2016-11-27T08:21:13.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 3770918296,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "de896b7d-c2c2-45e1-8b25-7e84cc03e6e2",
+    "date": "2016-11-27T16:11:18.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 2002855119,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "ac6df655-e3c1-40ab-a34d-82ea0ea084ab",
+    "date": "2016-12-03T09:46:30.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1874943782,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "32f2f290-0024-47fe-b1f8-7c65ab46ad3f",
+    "date": "2016-12-03T14:08:15.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1870477821,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "dd333840-0dc0-46fc-bafa-11206435847c",
+    "date": "2016-12-05T12:35:34.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1868476402,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "b908d1b2-51c4-400c-b3a4-edc5dc3c779d",
+    "date": "2016-12-05T13:40:37.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1788670517,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "52e02866-2c7f-42ae-bfc1-9a59e5a3d572",
+    "date": "2016-12-05T19:29:41.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1470545831,
+    "userId": "8076a68d-5c45-470d-b6d9-dedd5c0c7ec0"
+  },
+  {
+    "id": "6329b1b6-fd91-4cbf-87d8-21db3315c59a",
+    "date": "2016-12-09T15:32:01.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1351320617,
+    "userId": "8076a68d-5c45-470d-b6d9-dedd5c0c7ec0"
+  },
+  {
+    "id": "9f552cae-74ca-46d2-ae62-f52f1373b873",
+    "date": "2016-12-23T08:37:39.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312947906,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "f7c6b790-6011-40ba-9142-6ffecfa7de1b",
+    "date": "2016-12-23T13:57:44.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312947702,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "a4387b4f-e226-401c-b27b-cf041ca09428",
+    "date": "2016-12-28T04:36:20.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312947150,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "be89cee0-e0e4-4086-9a4e-d20f14ebef23",
+    "date": "2016-12-30T08:13:45.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312944772,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "08a59555-80e8-4b6d-9f8c-01754f7c9710",
+    "date": "2016-12-30T13:43:40.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312447723,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "b448deeb-8fc4-4347-b541-bc60da28dc73",
+    "date": "2016-12-30T15:03:22.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1312446391,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "3d29ff7c-d4e1-4d49-bd1c-5f281acf9774",
+    "date": "2017-01-02T09:32:56.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1311543541,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "00942af8-6bfe-4f0f-8e88-24a02b86730a",
+    "date": "2017-01-06T16:27:14.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1271117793,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "118e1c17-fa96-46fc-905b-d7ed94e18bd4",
+    "date": "2017-01-18T16:56:16.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1269720369,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "cd59153d-3986-46e9-b6f4-233e2083ed8c",
+    "date": "2017-01-30T11:57:41.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1268415679,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "2353a7d9-85fd-4626-83cb-4d4a65567301",
+    "date": "2017-02-08T21:50:33.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1235210069,
+    "userId": "6be2cf26-5b45-41e4-8b4b-a7de2ec5ea36"
+  },
+  {
+    "id": "3599d48f-7f8e-4eb8-ad18-655157302f8c",
+    "date": "2017-02-09T03:17:25.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1195520448,
+    "userId": "6be2cf26-5b45-41e4-8b4b-a7de2ec5ea36"
+  },
+  {
+    "id": "192ac0c3-35c6-408e-9b28-cf8fae90377c",
+    "date": "2017-02-12T11:52:29.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1195104349,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "e0cf9f27-f902-4268-8b90-b1443209a301",
+    "date": "2017-02-12T13:13:51.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1195098019,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "4ed3c0a6-81f6-4d61-8d11-749a0f6ed7dd",
+    "date": "2017-02-12T14:39:00.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1194501672,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "645ef694-300a-4035-a85f-390b7525640d",
+    "date": "2017-02-13T08:46:08.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1194097762,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "01248073-481c-4e07-b57f-ae2c95b697f9",
+    "date": "2017-02-13T08:46:34.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1193698905,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "9626770f-d10e-4a0f-a9b4-34021115003a",
+    "date": "2017-02-13T08:52:53.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1193300155,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "07084235-af84-4ded-97b9-0f307599d5fe",
+    "date": "2017-02-13T08:55:56.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1193298790,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "60de7997-96df-4e50-b711-0df4b4658259",
+    "date": "2017-02-13T09:27:49.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1193296482,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "7ee4a4da-fed0-4170-b288-146a8d47a37e",
+    "date": "2017-02-15T18:10:33.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1193294328,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "a0c6942d-dbb4-44a2-88d9-ca4015bbc31f",
+    "date": "2017-03-02T20:10:41.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1192497515,
+    "userId": "77651d1d-6670-475d-b1d0-63e94dc82552"
+  },
+  {
+    "id": "54287ee3-7e8d-44e6-a8b8-fed8798659b9",
+    "date": "2017-03-06T18:32:21.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1192296942,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "cc8477ef-84f4-4077-8b7a-b1b7bf628af9",
+    "date": "2017-03-06T22:54:19.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1192096909,
+    "userId": "77651d1d-6670-475d-b1d0-63e94dc82552"
+  },
+  {
+    "id": "2a4bff69-7a31-4a50-8646-3a35f65a5420",
+    "date": "2017-03-07T05:54:52.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1191795807,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "4ebd22ec-8f8d-4ee6-998e-0ab5fa4c47f3",
+    "date": "2017-03-26T18:27:42.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1191795791,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "b815dead-39ca-47c9-ae88-83cba865a357",
+    "date": "2017-03-30T07:15:32.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1155405788,
+    "userId": "6be2cf26-5b45-41e4-8b4b-a7de2ec5ea36"
+  },
+  {
+    "id": "44860735-c38a-479e-a6ff-77750df77e5b",
+    "date": "2017-04-28T16:39:15.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1152790895,
+    "userId": "4e543f9d-282a-4f81-b4e1-f3833396b9a3"
+  },
+  {
+    "id": "4bc76680-1e7a-46ee-8580-9028f7e3cfea",
+    "date": "2017-05-09T16:02:02.000Z",
+    "isTest": false,
+    "isValidated": true,
+    "isValid": true,
+    "cost": 1114888217,
+    "userId": "6be2cf26-5b45-41e4-8b4b-a7de2ec5ea36"
+  }
+]
